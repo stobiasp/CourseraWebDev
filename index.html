@@ -1,40 +1,81 @@
-<!DOCTYPE html>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mod 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-    <h1 id="title">Our Menu</h1>
-
-    <div class="row">
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
         
-          <div class="col-lg-4 col-md-6">
-            <div class="section">
-                <h2 class="pink">Chicken</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-            </div>
- 
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="section">
-                <h2 class="red">Beef</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-            </div>
 
-        </div>
-        <div class="col-lg-4 col-md-6 col-md-12">
-            <div class="section">
-                <h2 class="yellow">Sushi</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-            </div>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food,LLC</h1></a>
+  
+          </div>
 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
- 
-    </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+              <ul id="nav-list" class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
+               
+                  <li >
+                      <a href="">
+                         <p >Chicken</p>  
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <p>Beef</p>  
+                     
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <p>Sushi</p>  
+                     
+                      </a>
+                  </li>
+                 
+              </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        
+    
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+
+
+ <div id="main-content" class="container">
+ <div id="menuText"><p>Our Menu</p></div>
+
+ <div id="menuContent"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec justo pretium, gravida odio varius, auctor arcu. Phasellus eu felis fermentum, cursus lacus sit amet, venenatis elit. Morbi non rutrum justo, nec finibus odio. Nam aliquam nulla nec libero consequat feugiat. Maecenas dictum justo diam, id scelerisque mi convallis in. Nullam euismod rhoncus orci, vitae semper ex blandit vel. Vestibulum non augue eleifend, vulputate diam id, lobortis libero.
+
+Maecenas at nibh purus. Donec maximus lectus id pulvinar tincidunt. Proin ullamcorper tortor justo, ac semper ligula posuere eu. Duis elit ipsum, pellentesque posuere euismod vitae, euismod ut neque. Vivamus aliquet massa ex, vel convallis nunc venenatis nec. Quisque eu facilisis tortor. Morbi mi leo, luctus et sollicitudin eu, efficitur sit amet ante. Vivamus ac magna turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc orci, interdum quis dignissim vel, viverra nec lacus. Morbi vitae magna id nisi sagittis mollis. Vestibulum eget lectus nec elit varius malesuada nec id leo. Vivamus rhoncus iaculis dapibus.</p></div>
+
+
+  </div><!-- End of #main-content -->
+
+  
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
